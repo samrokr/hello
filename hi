@@ -4,3 +4,5 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/samrokr/hello.git
 git push -u origin master
+dependencies { def appCenterSdkVersion = '1.10.0' implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}" implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}" }
+import com.microsoft.appcenter.AppCenter; import com.microsoft.appcenter.analytics.Analytics; import com.microsoft.appcenter.crashes.Crashes;
